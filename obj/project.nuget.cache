@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HxMjknoqZ8Y=",
+  "dgSpecHash": "c7dyUkzd+wE=",
   "success": true,
   "projectFilePath": "C:\\Users\\loupl\\RiderProjects\\On_va_jouer_a_un_jeu\\On_va_jouer_a_un_jeu\\On_va_jouer_a_un_jeu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loupl\\.nuget\\packages\\csfml\\2.6.1\\csfml.2.6.1.nupkg.sha512",
+    "C:\\Users\\loupl\\.nuget\\packages\\keralua\\1.4.1\\keralua.1.4.1.nupkg.sha512",
+    "C:\\Users\\loupl\\.nuget\\packages\\moonsharp\\2.0.0\\moonsharp.2.0.0.nupkg.sha512",
+    "C:\\Users\\loupl\\.nuget\\packages\\nlua\\1.7.3\\nlua.1.7.3.nupkg.sha512",
     "C:\\Users\\loupl\\.nuget\\packages\\sfml.audio\\2.6.0\\sfml.audio.2.6.0.nupkg.sha512",
     "C:\\Users\\loupl\\.nuget\\packages\\sfml.graphics\\2.6.0\\sfml.graphics.2.6.0.nupkg.sha512",
     "C:\\Users\\loupl\\.nuget\\packages\\sfml.net\\2.6.0\\sfml.net.2.6.0.nupkg.sha512",
