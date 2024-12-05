@@ -1,3 +1,4 @@
+using System.Net.Sockets;
 using NLua;
 
 namespace On_va_jouer_a_un_jeu;
@@ -15,6 +16,7 @@ public class luaInterpreter
             lua["greet"] = new Action<string>((name) => { Console.WriteLine($"Hello, {name}!"); });
 
             lua["add"] = new Func<int, int, int>((a, b) => { return a + b; });
+            
 
 
             // Exposer les fonctions C# à Lua
