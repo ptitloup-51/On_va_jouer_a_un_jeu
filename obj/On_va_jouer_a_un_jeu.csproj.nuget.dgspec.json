@@ -50,6 +50,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SFML.Net": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "TiledSharp": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

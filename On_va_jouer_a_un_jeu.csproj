@@ -7,4 +7,21 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="SFML.Net" Version="2.6.0" />
+      <PackageReference Include="TiledSharp" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="tileset.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="levels\level1.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="levels\level1.tmx">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
